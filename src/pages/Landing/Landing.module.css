@@ -1,0 +1,22 @@
+.landing {
+    display: flex;
+    height: 75%;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+
+  .imgDiv {
+    border: 2px solid #023047;
+    border-radius: 50%;
+  }
+
+  .imgDiv img {
+    background-color: #023047;
+    border: 2px solid #b5838d;
+    border-radius: 50%;
+    height: max-content;
+    width: max-content;
+  }
