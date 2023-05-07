@@ -11,12 +11,12 @@ export const navBarLinks: Array<object> = [
       label: "Servicios",
       route: "/home/servicios",
     },
-    // {
-    //   label: "Acupuntura",
-    //   route: "/Acupuntura",
-    // },
+    {
+      label: "Tarifas",
+      route: "/home/prices",
+    },
     {
       label: "Contacto",
-      route: "/contacto",
+      route: "/home/contact",
     },
   ]
