@@ -116,7 +116,7 @@
 
 .logo img {
   height: 100%;
-  width: 25%;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -139,6 +139,15 @@
     position: fixed;
   }
 
+.redes{
+  justify-content: center;
+  flex-direction: row;
+  border: 1px solid black;
+  height: 4rem;
+  width: 6rem;
+  padding-left: 0;
+  gap: 2rem;
+}
 
 
 
