@@ -13,6 +13,7 @@ specifiers:
   eslint-plugin-react-refresh: ^0.3.4
   localforage: ^1.10.0
   match-sorter: ^6.3.1
+  normalice: ^1.0.1
   react: ^18.2.0
   react-dom: ^18.2.0
   react-icons: ^4.8.0
@@ -26,6 +27,7 @@ dependencies:
   antd: 5.4.6_biqbaboplfbrettd7655fr4n2y
   localforage: 1.10.0
   match-sorter: 6.3.1
+  normalice: 1.0.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.8.0_react@18.2.0
@@ -1703,6 +1705,10 @@ packages:
   /node-releases/2.0.10:
     resolution: {integrity: sha512-5GFldHPXVG/YZmFzJvKK2zDSzPKhEp0+ZR5SVaoSag9fsL5YgHbUHDfnG5494ISANDcK4KwPXAx2xqVEydmd7w==}
     dev: true
+
+  /normalice/1.0.1:
+    resolution: {integrity: sha512-wF2/tv9q/K8S+RqCgll5yC6z/zcXNr+rEHfGIw8A6D58vjfJo+kp749MI6cAHv72LE7nwv92Qi6tZhIeMOOJpg==}
+    dev: false
 
   /object-path/0.6.0:
     resolution: {integrity: sha1-tpp9EQk3k08zbKVh/ZvhrXt+DLc=}
