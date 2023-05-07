@@ -3,11 +3,11 @@
   height: 100%;
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   #root {
     height: 120rem;
   }
-}
+} */
 
 /* #root {
   display: flex;

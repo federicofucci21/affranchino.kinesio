@@ -40,9 +40,10 @@
 
 @media (max-width: 700px) {
   .nav {
-    padding-top: 25rem;
+    /* padding-top: 25rem; */
+    background-color: #778da9;
     display: flex;
-    height: 75%;
+    height: 120rem;
     width: 100%;
     /* padding: 20px; */
     /* gap: 10px; */
