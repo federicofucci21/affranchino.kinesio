@@ -1,5 +1,5 @@
 import style from "./Contact.module.css";
-import { FaPhoneAlt, FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
 
 export default function Contact() {
