@@ -5,7 +5,7 @@ export const Copyright = () => {
     <h5 className={style.copy}>
       {"Copyright © " + new Date().getFullYear()}{" "}
       <a href="/"> Seba.Kinesio</a>. Todos los
-      derechos reservados. | Diseñado por{" "}
+      derechos reservados. | Diseñado por {" "}{" "}
       <a href="/"> CaneDevs</a>
     </h5>
   );
