@@ -14,6 +14,7 @@
   border-top-right-radius: 10%;
   border-bottom-right-radius: 50%;
   box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.459);
+  height: 100%;
 }
 
 .text {
@@ -21,6 +22,7 @@
   background-color: #e5e5e583;
   border: 5px solid #b5838d;
   border-radius: 3px;
+  height: 100%;
   width: 600px;
   padding: 30px;
 }
