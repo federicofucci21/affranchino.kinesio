@@ -99,14 +99,14 @@
 }
 
 .logo {
-  width: 8rem;
+  width: 4rem;
   height: 3rem;
-  margin: 3px;
+  margin: 2px;
 }
 
 .logo img {
-  height: 100%;
-  width: 100%;
+  width: 4rem;
+  height: 3rem;
   border-radius: 50%;
 }
 
