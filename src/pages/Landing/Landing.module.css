@@ -10,6 +10,9 @@
   }
 
   .divText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size:x-large;
     color: black;
     width: 100%;
