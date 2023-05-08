@@ -1,5 +1,5 @@
 #root {
-  background-color: #778da9;
+  background-color: var(--main-background-color);
   height: 100%;
 }
 

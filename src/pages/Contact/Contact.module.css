@@ -1,5 +1,5 @@
 .contact {
-  background-color: #778da9;
+  background-color: var(--main-background-color);
   height: 75%;
 }
 
@@ -95,14 +95,14 @@
 }
 
 .contact > section > section > div > h3 > a:hover {
-  color: #e5e5e5;
+  color: var(--main-white-color);
   background-color: #023047;
   transition: 0.5s;
 }
 
 .divSection {
-  border-left: 1px solid #023047;
-  border-right: 1px solid #023047;
+  border-left: 1px solid var(--main-nav-color);
+  border-right: 1px solid var(--main-nav-color);
 }
 
 .info {

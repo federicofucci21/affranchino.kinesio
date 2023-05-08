@@ -41,7 +41,7 @@
   right: 0px;
   position: absolute;
   background-color: transparent;
-  border: 3px solid #023047;
+  border: 3px solid var(--main-nav-color);
   border-right: none;
   border-top-left-radius: 35px;
   border-bottom-left-radius: 35px;
@@ -55,8 +55,8 @@
   width: 100%;
   right: 0px;
   position: absolute;
-  background-color: #023047;
-  border: 1px solid #b5838d;
+  background-color: var(--main-nav-color);
+  border: 1px solid var(--main-border-color);
   /* border: 3px solid #fca311; */
   border-right: none;
   border-top-left-radius: 35px;
@@ -65,14 +65,14 @@
 }
 .li:hover {
   scale: 1.2;
-  color: #e5e5e5;
+  color: var(--main-white-color);
   text-decoration: underline;
   transition: 0.4s;
 }
 
 .link {
   text-decoration: none;
-  color: #e5e5e5;
+  color: var(--main-white-color);
   font-style: italic;
   font-weight: bold;
   list-style: none;
@@ -100,7 +100,7 @@
 .linea3 {
   width: 50px;
   height: 10px;
-  background-color: #e5e5e5;
+  background-color: var(--main-white-color);
   border-radius: 5px;
   margin: 3px 0px;
   transition: all 400ms ease;
@@ -115,7 +115,7 @@
     justify-content: center;
     position: fixed;
     /* width: 100%; */
-    background-color: #023047;
+    background-color: var(--main-nav-color);
   }
   .logo {
     position: fixed;
