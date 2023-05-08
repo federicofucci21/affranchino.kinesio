@@ -12,6 +12,8 @@
   .divText {
     font-size:x-large;
     color: black;
+    width: 100%;
+
   }
 
   .imgDiv {
@@ -30,8 +32,10 @@
   }
 
   @media (max-width: 700px) {
+
     .divText {
-      font-size:large;
+      font-size:medium;
       color: black;
+
     }
   }
