@@ -5,7 +5,7 @@ export const navBarLinks: Array<object> = [
     },
     {
       label: "Sobre mi",
-      route: "/about",
+      route: "/home/about",
     },
     {
       label: "Servicios",

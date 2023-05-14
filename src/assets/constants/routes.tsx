@@ -1,3 +1,4 @@
+import About from "../../pages/About/about";
 import Contact from "../../pages/Contact/Contact";
 import Home from "../../pages/Home/home";
 import LandingPage from "../../pages/Landing/Landing";
@@ -19,5 +20,9 @@ export const routesArray: Array<object> = [
     {
       path: "/home/contact",
       element: <Contact />,
+    },
+    {
+      path: "/home/about",
+      element: <About />,
     },
   ]
