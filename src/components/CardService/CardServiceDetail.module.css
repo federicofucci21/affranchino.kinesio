@@ -51,5 +51,6 @@
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
+    border-top: 2px solid black;
   }
   
