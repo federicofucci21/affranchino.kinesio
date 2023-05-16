@@ -7,6 +7,16 @@
     gap: 10px;
   }
 
+  @media (max-width: 700px) {
+    .nav {
+      display: flex;
+      height: 75%;
+      width: 100%;
+      align-items: center; 
+      justify-content: center;
+      gap: 10px;
+    }
+  }
   
 
   
