@@ -9,13 +9,12 @@ import { Footer } from "./components/Footer/Footer";
 
 const routes = createBrowserRouter(routesArray);
 
-
 function App() {
   return (
     <>
-    <Navbar />
+      <Navbar />
       <RouterProvider router={routes} />
-      <Footer/>
+      <Footer />
     </>
   );
 }
