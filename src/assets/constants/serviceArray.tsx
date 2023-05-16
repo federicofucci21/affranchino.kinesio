@@ -58,7 +58,11 @@ export const serviceArrayDetail = {
   calistenia: {
     tittle: "Calistenia terapeutica o inicial",
     img: calistenia,
-    description: ["/home/servicios/calistenia",]
+    description: [
+      "Permite aplicar tratamientos terapéuticos para aquellas personas que sufren dificultades motoras o disponen de poco tiempo.", 
+    "Tiene como objetivos restablecer la función, mejorar la autonomía y la calidad de vida del paciente.", 
+    "Se pueden beneficiar pacientes con patologías crónicas que estén complicados para el traslado a instituciones de rehabilitación o persona que busquen una atención personalizada en la comodidad de su hogar."
+  ]
   },
  rehabilitacion: {
     tittle: "Rehabilitacion motora (a domicilio)",
