@@ -1,4 +1,4 @@
-import style from "./CardService.module.css"
+import style from "./CardServiceDetail.module.css"
 
 export default function CardServiceDetail({
   title,
@@ -15,11 +15,11 @@ export default function CardServiceDetail({
         <section className={style.imgDiv}>
             <img src={img} alt="img not found" />
         </section>
-        <section>
-            <div className={style.tittle}>{title.toUpperCase()}</div>
-            <div className={style.description}>{
+        <section className={style.titleSection}>
+            <h3 className={style.tittle}>{title.toUpperCase()}</h3>
+            <p className={style.description}>{
             (description.map(e => (<li>{e}</li>)))
-            }</div>
+            }</p>
         </section>
 
     </div>

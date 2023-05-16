@@ -58,7 +58,7 @@ export const serviceArrayDetail = {
   calistenia: {
     tittle: "Calistenia terapeutica o inicial",
     img: calistenia,
-    description: "/home/servicios/calistenia",
+    description: ["/home/servicios/calistenia",]
   },
  rehabilitacion: {
     tittle: "Rehabilitacion motora (a domicilio)",
