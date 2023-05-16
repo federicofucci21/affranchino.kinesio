@@ -1,8 +1,5 @@
-import { Card } from "antd";
-import style from "./CardService.module.css"
+import style from "./CardService.module.css";
 import { useNavigate } from "react-router-dom";
-
-const { Meta } = Card;
 
 export default function CardService({
   tittle,
@@ -13,7 +10,7 @@ export default function CardService({
   img: string;
   btnSrc: string;
 }) {
-  console.log('IMG', img);
+  console.log("IMG", img);
 
   const navigate = useNavigate();
   const goTo = () => {
@@ -23,14 +20,26 @@ export default function CardService({
 
   return (
     <div onClick={() => goTo()} className={style.cardDiv}>
-      <Card
-      className={style.card}
-        hoverable
-        style={{ width: "100%", height: "100%", boxSizing: "border-box" }}
-        cover={<img alt="example" src={img} />}
-      >
-        <Meta title={tittle} description={btnSrc} />
-      </Card>
+      <section>
+      <img src={img} alt="img not found" />
+      </section>
+      <section className={style.titleSection}>
+        <h1>{tittle.toUpperCase()}</h1>
+        <a href={btnSrc}>Saber Más</a>
+      </section>
     </div>
   );
 }
+
+// return (
+//   <div onClick={() => goTo()} className={style.cardDiv}>
+//     <Card
+//     className={style.card}
+//       hoverable
+//       style={{ width: "100%", height: "100%", boxSizing: "border-box" }}
+//       cover={<img alt="example" src={img} />}
+//     >
+//       <Meta title={tittle} description={btnSrc} />
+//     </Card>
+//   </div>
+// );

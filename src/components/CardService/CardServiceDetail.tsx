@@ -7,7 +7,7 @@ export default function CardServiceDetail({
 }: {
   title: string;
   img: string;
-  description: string;
+  description: string[];
 }) {
 
   return (
@@ -16,8 +16,10 @@ export default function CardServiceDetail({
             <img src={img} alt="img not found" />
         </section>
         <section>
-            <div className={style.tittle}>{title}</div>
-            <div className={style.description}>{description}</div>
+            <div className={style.tittle}>{title.toUpperCase()}</div>
+            <div className={style.description}>{
+            (description.map(e => (<li>{e}</li>)))
+            }</div>
         </section>
 
     </div>
