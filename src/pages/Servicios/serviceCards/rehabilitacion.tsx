@@ -5,7 +5,7 @@ import { serviceArrayDetail } from "../../../assets/constants/serviceArray";
 export default function Rehabilitacion() {
 
   return (
-    <nav className={style.nav}>
+    <nav className={style.nav1}>
         <CardServiceDetail title={serviceArrayDetail.rehabilitacion.tittle} img={serviceArrayDetail.rehabilitacion.img} description={serviceArrayDetail.rehabilitacion.description}/>
     </nav>
   );

@@ -5,7 +5,7 @@ import { serviceArrayDetail } from "../../../assets/constants/serviceArray";
 export default function Acupuntura() {
 
   return (
-    <nav className={style.nav}>
+    <nav className={style.nav1}>
         <CardServiceDetail title={serviceArrayDetail.acupuntura.tittle} img={serviceArrayDetail.acupuntura.img} description={serviceArrayDetail.acupuntura.description}/>
     </nav>
   );

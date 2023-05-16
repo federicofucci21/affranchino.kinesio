@@ -5,7 +5,7 @@ import { serviceArrayDetail } from "../../../assets/constants/serviceArray";
 export default function Rpg() {
 
   return (
-    <nav className={style.nav}>
+    <nav className={style.nav1}>
         <CardServiceDetail title={serviceArrayDetail.rpg.tittle} img={serviceArrayDetail.rpg.img} description={serviceArrayDetail.rpg.description}/>
     </nav>
   );

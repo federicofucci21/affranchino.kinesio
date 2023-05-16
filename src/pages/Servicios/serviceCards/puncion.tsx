@@ -5,7 +5,7 @@ import { serviceArrayDetail } from "../../../assets/constants/serviceArray";
 export default function Puncion() {
 
   return (
-    <nav className={style.nav}>
+    <nav className={style.nav1}>
         <CardServiceDetail title={serviceArrayDetail.puncion.tittle} img={serviceArrayDetail.puncion.img} description={serviceArrayDetail.puncion.description}/>
     </nav>
   );
