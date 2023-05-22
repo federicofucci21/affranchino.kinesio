@@ -133,7 +133,7 @@
     justify-content: center;
     position: fixed;
     /* width: 100%; */
-    background-color: var(--main-nav-color-mobile);
+    background-color: var(--main-nav-color);
   }
   .logo {
     position: fixed;
@@ -172,7 +172,7 @@
     height: 100%;
     border-radius: 0px;
     border: none;
-    background-color: var(--main-nav-color-mobile);
+    background-color: var(--main-nav-color);
   }
 
   .nav__menu > h2 {
