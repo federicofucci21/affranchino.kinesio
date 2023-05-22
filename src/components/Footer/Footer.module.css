@@ -118,7 +118,7 @@
   .footer {
     display: flex;
     flex-direction: column;
-    background-color: var(--main-nav-color);
+    background-color: var(--main-nav-color-mobile);
     align-items: center;
     justify-content: center;
     width: 100%;
