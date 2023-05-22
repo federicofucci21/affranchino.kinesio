@@ -1,7 +1,7 @@
 import CardServiceDetail from "../../../components/CardService/CardServiceDetail";
 import style from "./serviceCard.module.css"
 import { serviceArray } from "../../../assets/constants/serviceArray";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 export default function SeviceDetail() {
 
@@ -20,6 +20,9 @@ export default function SeviceDetail() {
 
   return (
     <nav className={style.nav1}>
+      <div className={style.back}>
+        <Link to="/servicios" className={style.backLink}>Volver</Link>
+      </div>
         <CardServiceDetail title={service.tittle} img={service.img} description={service.description}/>
     </nav>
   );

@@ -7,6 +7,21 @@
     gap: 10px;
   }
 
+  .back{
+    position: fixed;
+    top: 7rem;
+    left: 4rem;
+    text-decoration: none;
+    background-color: var(--main-nav-color);
+    padding: 7px 5px 7px 15px;
+    border-radius: 8px;
+  }
+  .backLink {
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+  }
+
   @media (max-width: 700px) {
     .nav1 {
       display: flex;
