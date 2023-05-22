@@ -2,10 +2,17 @@ import { Copyright } from "./Copyrights";
 import style from "./Footer.module.css";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
 import logo from "../../assets/IMG/logo.jpeg"
+import { useLocation } from "react-router-dom";
 
 export function Footer() {
+
+  const location = useLocation();
+  console.log("LOCATIONPath", location.pathname)
+  const hidden = location.pathname
+  console.log(hidden==="/")
+
   return (
-    <div className={style.footer}>
+    <div className={hidden==="/"?style.footerHidden : style.footer}>
       <section className={style.section1}>
         <section>
           <div>

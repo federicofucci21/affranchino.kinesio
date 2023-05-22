@@ -5,18 +5,18 @@ export const navBarLinks: Array<object> = [
     },
     {
       label: "Sobre mi",
-      route: "/home/about",
+      route: "/about",
     },
     {
       label: "Servicios",
-      route: "/home/servicios",
+      route: "/servicios",
     },
     {
       label: "Tarifas",
-      route: "/home/prices",
+      route: "/prices",
     },
     {
       label: "Contacto",
-      route: "/home/contact",
+      route: "/contact",
     },
   ]

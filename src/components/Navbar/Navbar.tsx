@@ -2,15 +2,16 @@ import { useState } from "react";
 import style from "./Navbar.module.css";
 import { navBarLinks } from "../../assets/constants/navBarLinks";
 import logo from "../../assets/IMG/logo.jpeg"
+import { NavLink, useLocation } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 
 const mapLinks = (navBarLinks: Array<object>) => {
   return navBarLinks.map((e: any) => {
     return (
       <p className={style.li} key={e.route}>
-        <a className={style.link} href={e.route}>
+        <NavLink className={({ isActive }) => isActive ? style.linkCheck : style.link} to={e.route}>
           {e.label}
-        </a>
+        </NavLink>
       </p>
     );
   });
@@ -20,11 +21,11 @@ const landingRoute = "/";
 
 export const Navbar = () => {
 
-  // const navigate = useNavigate();
+  const location = useLocation();
+  console.log("LOCATION", location)
+  const hidden = location.pathname
 
   const [isOpen, setIsOpen] = useState(false);
-
-  console.log(isOpen);
 
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -37,7 +38,7 @@ export const Navbar = () => {
   // };
 
   return (
-    <nav className={style.nav}>
+    <nav className={hidden === "/" ? style.navHidden : style.nav}>
       <a className={style.logo} href={landingRoute}>
         <img src={logo} alt="LOGO" />
       </a>

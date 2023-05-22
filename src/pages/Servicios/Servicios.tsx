@@ -8,7 +8,7 @@ export default function Servicios() {
       <section className={style.servicios}>
         {serviceArray.length > 1 ? (
           serviceArray.map((e) => (
-            <CardService tittle={e.tittle} img={e.img} btnSrc={e.btnSrc} />
+            <CardService id={e.id} tittle={e.tittle} img={e.img}  />
           ))
         ) : (
           <h1>LOADING</h1>

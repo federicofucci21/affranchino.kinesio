@@ -1,20 +1,34 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/Navbar/Navbar";
-import { routesArray } from "./assets/constants/routes";
 import { Footer } from "./components/Footer/Footer";
-
-const routes = createBrowserRouter(routesArray);
+import LandingPage from "./pages/Landing/Landing";
+import Home from "./pages/Home/home";
+import Servicios from "./pages/Servicios/Servicios";
+import Contact from "./pages/Contact/Contact";
+import About from "./pages/About/about";
+import SeviceDetail from "./pages/Servicios/serviceCards/serviseDetail";
 
 function App() {
+
+
   return (
     <>
+    <BrowserRouter>
       <Navbar />
-      <RouterProvider router={routes} />
+      <Routes>
+        <Route path="/" element={<LandingPage/>} />
+        <Route path="/home" element={<Home/>} />
+        <Route path="/about" element={<About/>} />
+        <Route path="/servicios" element={<Servicios/>} />
+        <Route path="/servicios/:id" element={<SeviceDetail/>} />
+        <Route path="/contact" element={<Contact/>} />
+      </Routes>
       <Footer />
+      </BrowserRouter>
     </>
   );
 }
