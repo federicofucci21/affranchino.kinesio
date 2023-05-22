@@ -1,6 +1,6 @@
 import { useState } from "react";
 import style from "./Navbar.module.css";
-import { navBarLinks } from "../../assets/constants/navBarLinks";
+import { linkObjects, navBarLinks } from "../../assets/constants/navBarLinks";
 import logo from "../../assets/IMG/logo.jpeg";
 import { NavLink, useLocation } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
@@ -25,8 +25,8 @@ export const Navbar = () => {
     window.scroll(0, 0);
   };
 
-  const mapLinks = (navBarLinks: Array<object>) => {
-    return navBarLinks.map((e: any) => {
+  const mapLinks = (navBarLinks: Array<linkObjects>) => {
+    return navBarLinks.map((e: linkObjects) => {
       return (
         <p className={style.li} key={e.route}>
           <NavLink

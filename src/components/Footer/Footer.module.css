@@ -35,6 +35,10 @@
   /* position: fixed; */
 }
 
+.section1 > section > div > h1 {
+  font-style: italic;
+}
+
 .footer section section {
   display: flex;
   flex-direction: row;
@@ -86,7 +90,7 @@
   display: flex;
   height: 35%;
   color: var(--main-white-color);
-  font-size: 20px;
+  font-size: 15px;
   /* padding-bottom: 0.5rem; */
   margin-top: 3px;
   border-top: 1px solid var(--main-white-color);
@@ -111,6 +115,7 @@
   width: 3.5rem;
   height: 2.8rem;
   border-radius: 50%;
+  border: 1px solid rgba(76, 72, 72, 0.658);
 }
 
 

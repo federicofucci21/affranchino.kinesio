@@ -1,21 +1,14 @@
 .nav {
   display: flex;
   flex-direction: row;
-  /* background-color: #2a4a5e; */
   align-items: center;
-  /* justify-content: space-around; */
   width: 100%;
   height: 10%;
-  /* border: 2px solid rgb(55, 77, 179);
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px; */
   gap: 5px;
-  /* padding: 5px; */
   overflow: hidden;
-  /* position: fixed;*/
-    z-index: 3; 
+  z-index: 3;
 }
-.navHidden{
+.navHidden {
   display: none;
 }
 
@@ -28,11 +21,13 @@
   align-items: center;
   justify-content: center;
   margin-left: 10px;
+
   border-radius: 50%;
 }
-.logo img{
+.logo img {
   height: 100%;
   width: 40%;
+  border: 1px solid rgba(76, 72, 72, 0.658);
   border-radius: 50%;
 }
 .menu1 {
@@ -43,12 +38,11 @@
   width: 70%;
   right: 0px;
   position: absolute;
-  background-color: transparent;
+  /* background-color: transparent; */
   border: 3px solid var(--main-nav-color);
   border-right: none;
   border-top-left-radius: 35px;
   border-bottom-left-radius: 35px;
-
 }
 .menu {
   display: flex;
@@ -67,10 +61,14 @@
   border-bottom-left-radius: 35px;
   /* padding: 3px; */
 }
+
+
 .li:hover {
-  scale: 1.2;
-  color: var(--main-white-color);
-  text-decoration: underline;
+  /* scale: 1.2; */
+  color: white;
+  background-color: black;
+  padding: 4px 1px 4px 1px;
+  border-radius: 10px;
   transition: 0.4s;
 }
 
@@ -82,17 +80,27 @@
   list-style: none;
 }
 
-.linkCheck {
-  text-decoration: underline;
-  color: var(--main-white-color);
-  font-style: italic;
-  font-weight: bold;
-  list-style: none;
+.link:hover {
+
+  color: white;
+
 }
 
- /* Menu hamburguesa */
 
- .nav__label,
+.linkCheck {
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 4px 8px 4px 8px;
+  border-radius: 10px;
+  font-style: italic;
+  font-weight: bold;
+  /* list-style: none; */
+}
+
+/* Menu hamburguesa */
+
+.nav__label,
 .nav__input {
   display: none;
 }
@@ -118,8 +126,6 @@
   transition: all 400ms ease;
 }
 
-
-
 @media (max-width: 700px) {
   .nav {
     display: flex;
@@ -142,9 +148,9 @@
   .menu1 {
     padding-left: 0;
     /* gap: 3rem; */
-    padding: 5rem; 
+    padding: 5rem;
     /* padding-bottom: 0.5rem; */
-    position:fixed;
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -169,7 +175,7 @@
     background-color: var(--main-nav-color-mobile);
   }
 
-  .nav__menu > h2{
+  .nav__menu > h2 {
     cursor: pointer;
   }
 

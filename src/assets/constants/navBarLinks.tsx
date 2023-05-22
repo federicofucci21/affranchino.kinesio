@@ -1,4 +1,9 @@
-export const navBarLinks: Array<object> = [
+export type linkObjects =  {
+  label:string,
+  route: string,
+}
+
+export const navBarLinks: Array<linkObjects> = [
     {
       label: "Home",
       route: "/home",
