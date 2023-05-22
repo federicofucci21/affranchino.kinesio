@@ -33,6 +33,13 @@
       padding-top: 10rem;
       padding-bottom: 20rem;
     }
+
+    .back{
+      position: fixed;
+      top: 4.5rem;
+      left: 1rem;
+      z-index: 105;
+    }
   }
   
 
