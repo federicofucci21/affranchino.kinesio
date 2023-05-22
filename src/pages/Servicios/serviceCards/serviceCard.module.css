@@ -36,7 +36,7 @@
 
     .back{
       position: fixed;
-      top: 4.5rem;
+      top: 5rem;
       left: 1rem;
       z-index: 105;
     }
