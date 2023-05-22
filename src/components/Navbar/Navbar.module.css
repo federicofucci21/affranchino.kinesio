@@ -166,6 +166,7 @@
     height: 100%;
     border-radius: 0px;
     border: none;
+    background-color: var(--main-nav-color-mobile);
   }
 
   .nav__menu > h2{
