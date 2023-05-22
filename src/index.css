@@ -18,14 +18,14 @@ body {
   line-height: 1.5;
   font-weight: 400;
   height: 100vh;
-  /* --main-nav-color: #778da9;
-  --main-border-color: #b5838d;
-  --main-white-color: black;
-  --main-background-color: #e5e5e5; */
-  --main-nav-color: #023047;
+  /*  --main-nav-color: #023047;
   --main-border-color: #b5838d;
   --main-white-color: #e5e5e5;
-  --main-background-color: #778da9;
+  --main-background-color: #778da9; */
+  --main-nav-color: #d6ccc277;
+  --main-border-color: #b5838d;
+  --main-white-color: #000000;
+  --main-background-color: #f5ebe0;
 }
 
 /* *{
