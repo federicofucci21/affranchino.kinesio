@@ -5,17 +5,7 @@ import logo from "../../assets/IMG/logo.jpeg"
 import { NavLink, useLocation } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 
-const mapLinks = (navBarLinks: Array<object>) => {
-  return navBarLinks.map((e: any) => {
-    return (
-      <p className={style.li} key={e.route}>
-        <NavLink className={({ isActive }) => isActive ? style.linkCheck : style.link} to={e.route}>
-          {e.label}
-        </NavLink>
-      </p>
-    );
-  });
-};
+
 
 const landingRoute = "/";
 
@@ -31,11 +21,24 @@ export const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
-  // const goTo= (path: string) => {
-  //   toggle();
-  //   navigate(`${path}`);
-  //   window.scroll(0, 0);
-  // };
+  const goTo= () => {
+    toggle();
+    // navigate(`${path}`);
+    window.scroll(0, 0);
+  };
+  
+  const mapLinks = (navBarLinks: Array<object>) => {
+    return navBarLinks.map((e: any) => {
+      return (
+        <p className={style.li} key={e.route}>
+          <NavLink onClick={()=>{goTo()}} className={({ isActive }) => isActive ? style.linkCheck : style.link} to={e.route}>
+            {e.label}
+          </NavLink>
+        </p>
+      );
+    });
+  };
+
 
   return (
     <nav className={hidden === "/" ? style.navHidden : style.nav}>
