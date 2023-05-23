@@ -1,17 +1,65 @@
 .landing {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  /* background-image: url("../../assets/IMG/landing_background.jpeg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover; */
+  border: 10px solid black;
+}
+
+.imgDiv {
+  height: 100%;
+  width: 26rem;
+  border-right: 3px solid rgba(90, 87, 87, 0.116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(150deg, #9500, rgb(63, 85, 99), #73acb4);
+  box-shadow: 0 0 15px #474141;
+}
+
+.imgDiv img {
+  position: fixed;
+  left: 13rem;
+  height: 25rem;
+  width: 26rem;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #2b2a29;
+}
+
+.landingDiv {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100%;
-  width: 100%;
+  width: 70%;
+  bottom: 3rem;
+  right: 3rem;
   background-image: url("../../assets/IMG/landing_background.jpeg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
-  border: 10px solid black;
 }
-.landingDiv {
+.landingDiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #d6ccc2;
+  height: 100%;
+  width: 100%;
+}
+
+/* .landingDiv {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -20,7 +68,12 @@
   height: 6rem;
   bottom: 3rem;
   right: 3rem;
-}
+  background-image: url("../../assets/IMG/landing_background.jpeg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+} */
 
 /* .divText {
   text-decoration: none;
@@ -43,7 +96,7 @@
   bottom: 4rem;
   right: 2rem; */
   width: 25rem;
-  height: 10rem;
+  height: 5rem;
 }
 
 .content h2 {
@@ -108,6 +161,8 @@
   border-radius: 8px;
   color: #fff;
   display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 15px;
   padding: 3px;
   cursor: pointer;
@@ -115,7 +170,7 @@
 }
 .button span {
   background-color: #111;
-  padding: 3px 3px;
+  padding: 5px 5px;
   border-radius: 6px;
   transition: 0.3s;
 }

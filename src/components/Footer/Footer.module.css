@@ -13,9 +13,29 @@
   /* gap: 5px; */
   /* padding: 15px; */
   /* position: fixed; */
+  animation: 2s anim-navbar ease;
 }
 .footerHidden{
   display: none;
+}
+
+@keyframes anim-navbar {
+  0% {
+    opacity: 0;
+    transform: translatey(80%);
+  }
+  35% {
+    opacity: 0;
+    transform: translatey(60%);
+  }
+  70% {
+    opacity: 1;
+    transform: translatey(40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0%);
+  }
 }
 
 .section1 {
