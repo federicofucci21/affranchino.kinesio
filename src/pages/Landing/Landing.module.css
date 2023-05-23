@@ -190,12 +190,40 @@
 
   .landing {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    border: none;
   }
+
+  .imgDiv {
+    height: 50%;
+    /* width: 26rem; */
+    /* border-right: 3px solid rgba(90, 87, 87, 0.116); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(150deg, #9500, rgb(63, 85, 99), #73acb4);
+    box-shadow: 0 0 15px #474141;
+  }
+  
+  .imgDiv img {
+    position: unset;
+    left: 13rem;
+    height: 15rem;
+    width: 15rem;
+  }
+
   .landingDiv {
     position: unset;
+    height: 50%;
+    width: 100%;
+  }
+  .landingDiv2 {
+    background-image: linear-gradient(150deg, #9500, rgb(63, 85, 99), #73acb4);
+    width: 100%;
+    justify-content: flex-start;
   }
   .content {
     position: none;
