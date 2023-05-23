@@ -1,8 +1,9 @@
 import acupuntura from "../IMG/acupuntura.jpg";
-import rpg from "../IMG/rpg.jpg";
-import calistenia from "../IMG/calistenia.jpg";
-import rehabilitacion from "../IMG/rehabilitacion.jpg";
-import terapiamanual from "../IMG/terapiamanual.png";
+import rpg from "../IMG/rpg2.jpg";
+import calistenia from "../IMG/calistenia2.jpg";
+import rehabilitacion from "../IMG/rehabilitacion2.jpg";
+import terapiamanual from "../IMG/terapiamanual2.jpg";
+import puncion from "../IMG/puncion.jpg"
 
 export const serviceArray = [
   {
@@ -58,7 +59,7 @@ export const serviceArray = [
   {
     id: 6,
     tittle: "Punción seca",
-    img: terapiamanual,
+    img: puncion,
     description: [
       "La punción seca es una innovadora técnica fisioterapéutica que utiliza agujas de acupuntura para tratar ciertas dolencias, especialmente el síndrome de dolor miofascial.",
       "Su principal objetivo es devolverle al musculo Eficiencia y eficacia contráctil a través de la inhibición de puntos dolorosos (Puntos gatillo) en un músculo en particular.",
