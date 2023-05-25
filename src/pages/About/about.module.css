@@ -1,9 +1,77 @@
 .about {
-    display: flex;
-    height: 75%;
-    padding: 20px;
-    gap: 10px;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 30px;
-  }
+  display: flex;
+  height: 75%;
+  padding: 5px;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.divAbout {
+  border: 1px solid black;
+  /* overflow-y: scroll; */
+  width: 100%;
+  max-height: 100%;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 6rem;
+}
+.header div{
+  position: absolute;
+  left: 5rem;
+}
+
+.header div img{
+  width: 5rem;
+  height: 6rem;
+}
+
+.scroll{
+  overflow-y: scroll;
+  max-height: 20em;
+}
+
+.studies{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  gap: 3px;
+  padding: 1rem;
+}
+
+.studies div li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+.courses{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+  gap: 3px;
+  padding: 1rem;
+}
+.courses div{
+  /* display: flex;
+  flex-direction: row;
+  align-items: center; */
+  gap: 10px;
+}
+
+.courses div li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
