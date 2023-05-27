@@ -18,7 +18,7 @@ export const navBarLinks: Array<linkObjects> = [
     },
     {
       label: "Tarifas",
-      route: "/prices",
+      route: "/tarifas",
     },
     {
       label: "Contacto",

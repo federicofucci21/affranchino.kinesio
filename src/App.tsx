@@ -11,6 +11,7 @@ import Servicios from "./pages/Servicios/Servicios";
 import Contact from "./pages/Contact/Contact";
 import About from "./pages/About/about";
 import SeviceDetail from "./pages/Servicios/serviceCards/serviseDetail";
+import Tarifas from "./pages/Tarifas/tarifas";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
         <Route path="/servicios" element={<Servicios/>} />
         <Route path="/servicios/:id" element={<SeviceDetail/>} />
         <Route path="/contact" element={<Contact/>} />
+        <Route path="/tarifas" element={<Tarifas/>} />
       </Routes>
       <Footer />
       </BrowserRouter>

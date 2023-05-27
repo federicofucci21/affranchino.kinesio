@@ -11,14 +11,6 @@ export default function CardService({
   img: string;
 }) {
 
-  // const navigate = useNavigate();
-  // const goTo = () => {
-  //   navigate(`${id}`);
-  //   window.scrollTo(0, 0);
-  // };
-
-  // <div onClick={() => goTo()} className={style.cardDiv}>
-
   return (
     <div className={style.cardDiv}>
       <section>

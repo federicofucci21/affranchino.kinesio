@@ -1,11 +1,7 @@
-// import { Photo } from "../../components/photo/photo";
-import { useLocation } from "react-router-dom";
 import SebaFrente from "../../assets/IMG/SebaFrente.png";
 import style from "./home.module.css";
 
 export default function Home() {
-  const location = useLocation();
-  console.log("LOCATION", location);
 
   return (
     <nav className={style.home}>
