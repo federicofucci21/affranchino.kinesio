@@ -27,7 +27,7 @@ export const courses = [
     city: "Rosario, Santa Fe, Argentina",
   },
   {
-    name: "Acupuntura 1",
+    name: "Acupuntura I",
     date: 2019,
     university: "IMADA, Instituto Medico Argentino de Acupuntura",
     city: "CABA, Argentina",

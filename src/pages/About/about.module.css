@@ -75,18 +75,18 @@
 
 
 .about {
+  font-family: 'Roboto', sans-serif;
+  color: #001219;
   display: flex;
   height: 75%;
   padding: 5px;
-  gap: 10px;
+  /* gap: 10px; */
   align-items: center;
   justify-content: space-around;
-  padding-top: 30px;
+  padding-top: 5px;
 }
 
 .divAbout {
-  /* border: 1px solid black; */
-
   width: 100%;
   max-height: 100%;
 }
@@ -112,17 +112,19 @@
 }
 
 .scroll{
+  display: flex;
+  justify-content: center;
   overflow-y: scroll;
   max-height: 20em;
   position: relative;
   background-color: var(--main-nav-color);
-  height: 18rem;
-  padding: 1rem;
-  /* padding-bottom: 5rem; */
+  height: 19rem;
+  /* padding: .25em; */
   border: 1px solid black;
+  /* margin-bottom: 5px; */
 }
 
 .workExperience{
-  padding: 5px;
+  padding: 2px;
   border-bottom: 1px solid black;
 }
