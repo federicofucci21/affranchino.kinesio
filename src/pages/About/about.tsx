@@ -7,9 +7,9 @@ export default function About() {
   const button = document.querySelectorAll(".button");
   const pestañas = document.querySelectorAll(".pestañas");
 
-  button.forEach((e, i) => {
+  button.forEach((_e, i) => {
     button[i].addEventListener("click", () => {
-      button.forEach((e, i) => {
+      button.forEach((_e, i) => {
         button[i].classList.remove("active");
         pestañas[i].classList.remove("active");
       });
