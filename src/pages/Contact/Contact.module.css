@@ -154,7 +154,7 @@
 @media (max-width: 700px) {
   .contact {
     padding-top: 2rem;
-    height: 70rem;
+    height: 85rem;
   }
 
   .contact > section {
@@ -189,6 +189,11 @@
   .divSection {
     padding-top: 2rem;
     border-top: 1px solid #023047;
+    border-bottom: 1px solid #023047;
+    border-left: 0;
+    border-right: 0;
+  }
+  .divSection1 {
     border-bottom: 1px solid #023047;
     border-left: 0;
     border-right: 0;
