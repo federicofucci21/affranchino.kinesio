@@ -24,14 +24,14 @@ export function Footer() {
           <div className={style.social}>
             <div className={style.redes}>
               <a
-                href="https://www.facebook.com/BacoFusion/"
+                href="https://www.instagram.com/affranchino.kinesio/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <BsFacebook className={style.socialIcon} />
               </a>
               <a
-                href="https://www.instagram.com/bacofusion/?hl=es"
+                href="https://www.instagram.com/affranchino.kinesio/"
                 target="_blank"
                 rel="noreferrer"
               >
