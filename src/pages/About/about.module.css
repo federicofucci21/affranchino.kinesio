@@ -93,6 +93,7 @@
 
 .header {
   border: 1px solid black;
+  background-color: var(--main-nav-color);
   display: flex;
   flex-direction: column;
   align-items: center;

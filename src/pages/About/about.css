@@ -11,13 +11,13 @@
   background-color: var(--main-nav-color);
   padding: 8px;
   margin: 5px;
-  border: 2px solid #001219;
+  border: 1px solid #001219;
   border-radius: 15px;
 }
 
 .button.active {
   background-color: var(--main-background-color);
-  border: 2px solid var(--main-nav-color);
+  border: 1px solid var(--main-nav-color);
 }
 
 .pestañas {

@@ -20,7 +20,7 @@ export default function About() {
   // console.log("pestañas", pestañas);
   // console.log("BUTTONS", button);
 
-  function button_active(id: string){
+  function button_active(id: number){
     const button = document.querySelectorAll(".button");
     const pestañas = document.querySelectorAll(".pestañas");
     button.forEach((_e, i) => {
@@ -28,8 +28,8 @@ export default function About() {
       pestañas[i].classList.remove("active");
     });
 
-    button[Number(id)].classList.add("active");
-    pestañas[Number(id)].classList.add("active");
+    button[id].classList.add("active");
+    pestañas[id].classList.add("active");
 
   }
 
@@ -37,16 +37,16 @@ export default function About() {
     <nav className={style.about}>
       <div className={style.divAbout}>
         <section className={style.header}>
-          <div>
+          {/* <div>
             <img src={sebaloco} alt="IMG not found" />
-          </div>
+          </div> */}
           <h2>Lic. Sebastián Affranchino</h2>
           <h4>M.N. 15463</h4>
         </section>
         <div className="buttonDiv">
-          <div id="0" onClick={()=>{button_active("0")}} className="button">Preparación Academica</div>
-          <div id="1" onClick={()=>{button_active("1")}} className="button">Formación Profesional</div>
-          <div id="2" onClick={()=>{button_active("2")}} className="button">Experiencia Laboral</div>
+          <div id="0" onClick={()=>{button_active(0)}} className="button">Preparación Academica</div>
+          <div id="1" onClick={()=>{button_active(1)}} className="button">Formación Profesional</div>
+          <div id="2" onClick={()=>{button_active(2)}} className="button">Experiencia Laboral</div>
         </div>
         <section className={style.scroll}>
           <div className="pestañas">
