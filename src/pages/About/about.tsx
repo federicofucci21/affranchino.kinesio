@@ -4,22 +4,34 @@ import { studies, courses, work_experience } from "../../assets/constants/cv";
 import "./about.css";
 
 export default function About() {
-  const button = document.querySelectorAll(".button");
-  const pestañas = document.querySelectorAll(".pestañas");
 
-  button.forEach((_e, i) => {
-    button[i].addEventListener("click", () => {
-      button.forEach((_e, i) => {
-        button[i].classList.remove("active");
-        pestañas[i].classList.remove("active");
-      });
 
-      button[i].classList.add("active");
-      pestañas[i].classList.add("active");
+  // button.forEach((e, i) => {
+  //   button[i].addEventListener("click", () => {
+  //     button.forEach((e, i) => {
+  //       button[i].classList.remove("active");
+  //       pestañas[i].classList.remove("active");
+  //     });
+
+  //     button[i].classList.add("active");
+  //     pestañas[i].classList.add("active");
+  //   });
+  // });
+  // console.log("pestañas", pestañas);
+  // console.log("BUTTONS", button);
+
+  function button_active(id: string){
+    const button = document.querySelectorAll(".button");
+    const pestañas = document.querySelectorAll(".pestañas");
+    button.forEach((_e, i) => {
+      button[i].classList.remove("active");
+      pestañas[i].classList.remove("active");
     });
-  });
-  console.log("pestañas", pestañas);
-  console.log("BUTTONS", button);
+
+    button[Number(id)].classList.add("active");
+    pestañas[Number(id)].classList.add("active");
+
+  }
 
   return (
     <nav className={style.about}>
@@ -32,9 +44,9 @@ export default function About() {
           <h4>M.N. 15463</h4>
         </section>
         <div className="buttonDiv">
-          <div className="button">Preparación Academica</div>
-          <div className="button">Formación Profesional</div>
-          <div className="button">Experiencia Laboral</div>
+          <div id="0" onClick={()=>{button_active("0")}} className="button">Preparación Academica</div>
+          <div id="1" onClick={()=>{button_active("1")}} className="button">Formación Profesional</div>
+          <div id="2" onClick={()=>{button_active("2")}} className="button">Experiencia Laboral</div>
         </div>
         <section className={style.scroll}>
           <div className="pestañas">

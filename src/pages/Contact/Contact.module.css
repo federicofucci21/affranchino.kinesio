@@ -96,7 +96,7 @@
 
 .contact > section > section > div > h3 > a:hover {
   color: var(--main-white-color);
-  background-color: #023047;
+  background-color: var(--main-nav-color);
   transition: 0.5s;
 }
 
