@@ -1,5 +1,5 @@
 import style from "./about.module.css";
-import sebaloco from "../../assets/IMG/Sebaloco.png";
+// import sebaloco from "../../assets/IMG/Sebaloco.png";
 import { studies, courses, work_experience } from "../../assets/constants/cv";
 import "./about.css";
 
