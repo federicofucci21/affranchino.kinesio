@@ -1,6 +1,7 @@
 import style from "./Contact.module.css";
 import { FaPhoneAlt } from "react-icons/fa";
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
+import { AiOutlineMail } from "react-icons/ai";
 
 export default function Contact() {
   return (
@@ -13,7 +14,9 @@ export default function Contact() {
               <h2>Instagram</h2>
             </div>
             <h3>
-              <a href="https://www.instagram.com/canemilanesasdesoja/">
+              <a 
+              href="https://www.instagram.com/affranchino.kinesio/"
+              target="_black">
                 Affranchino.Kinesio
               </a>
             </h3>
@@ -37,6 +40,21 @@ export default function Contact() {
                 target="_black"
               >
                 Enviar Mensaje
+              </a>
+            </h3>
+          </div>
+          <div className={style.divSection1}>
+            <div>
+              <AiOutlineMail className={style.icon} />
+              <h2>E-mail</h2>
+            </div>
+            <h3>
+            <a
+                href="mailto:affranchinosebastian@gmail.com"
+                id="btn-mail"
+                target="_black"
+              >
+                Enviar e-mail
               </a>
             </h3>
           </div>

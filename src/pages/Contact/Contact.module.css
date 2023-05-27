@@ -104,6 +104,10 @@
   border-left: 1px solid var(--main-white-color);
   border-right: 1px solid var(--main-white-color);
 }
+.divSection1 {
+  border-left: 1px solid var(--main-white-color);
+  /* border-right: 1px solid var(--main-white-color); */
+}
 
 .info {
   display: flex;
