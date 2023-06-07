@@ -24,10 +24,10 @@ function App() {
         <Route path="/" element={<LandingPage/>} />
         <Route path="/home" element={<Home/>} />
         <Route path="/about" element={<About/>} />
-        <Route path="/servicios" element={<Servicios/>} />
-        <Route path="/servicios/:id" element={<SeviceDetail/>} />
+        <Route path="/terapias" element={<Servicios/>} />
+        <Route path="/terapias/:id" element={<SeviceDetail/>} />
         <Route path="/contact" element={<Contact/>} />
-        <Route path="/tarifas" element={<Tarifas/>} />
+        <Route path="/honorarios" element={<Tarifas/>} />
       </Routes>
       <Footer />
       </BrowserRouter>

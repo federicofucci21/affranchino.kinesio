@@ -18,7 +18,7 @@ export default function CardService({
       </section>
       <section className={style.titleSection}>
         <h1>{tittle.toUpperCase()}</h1>
-        <Link to={`/servicios/${id}`}>Saber Más</Link>
+        <Link to={`/terapias/${id}`}>Saber Más</Link>
       </section>
     </div>
   );

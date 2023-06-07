@@ -7,7 +7,7 @@ export const tarifas = [
         items: ["1 Sesión $5.000.", "Tratamiento $16.000. (4 sesiones)"],
       },
       {
-        title: "ACUPUNTURA/DIGITOPUNTURA",
+        title: "ACUPUNTURA/PUNCIÓN SECA",
         items: ["1 Sesión $5.000.", "Tratamiento $16.000. (4 sesiones)"],
       },
       {
@@ -20,11 +20,11 @@ export const tarifas = [
     title: "Servicios móviles",
     services: [
       {
-        title: "KINESIOLOGIA MOTORA (A DOMICILIO)",
+        title: "KINESIOLOGÍA MOTORA (A DOMICILIO)",
         items: ["1 vez por semana $7.000.", "2 veces por semana $12.000."],
       },
       {
-        title: "Calistenia Terapéutica o Inicial (Calses Individuales)",
+        title: "Calistenia Terapéutica o Inicial (Clases Individuales)",
         items: ["1 vez por semana $6.000.", "2 veces por semana $10.000."],
       },
       {

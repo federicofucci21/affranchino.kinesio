@@ -13,12 +13,12 @@ export const navBarLinks: Array<linkObjects> = [
       route: "/about",
     },
     {
-      label: "Servicios",
-      route: "/servicios",
+      label: "Terapias",
+      route: "/terapias",
     },
     {
-      label: "Tarifas",
-      route: "/tarifas",
+      label: "Honorarios",
+      route: "/honorarios",
     },
     {
       label: "Contacto",

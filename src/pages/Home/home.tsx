@@ -2,24 +2,29 @@ import SebaFrente from "../../assets/IMG/SebaFrente.png";
 import style from "./home.module.css";
 
 export default function Home() {
-
   return (
     <nav className={style.home}>
       <div className={style.text}>
         {" "}
         <h1>Hola, mi nombre es Sebastian</h1>
         <p>
-          Hola! soy Sebastián Kinesiólogo de profesión. Con mi experiencia en
-          consultorios y clínicas de rehabilitación durante años, he percibido
-          que muchos de los tratamientos o un gran porcentaje, no llegan a
-          resultados óptimos o se dilatan en duración demorando el tiempo de
-          recuperación de la persona. Es por eso que he decidido brindar un
-          servicio especializado y personalizado que se adapte a las necesidades
-          de cada persona. Estoy convencido que de esta forma de trabajo se
-          aumentan las probabilidades de éxito del tratamiento propuesto para
-          solucionar el problema que se busca resolver. Te invito a que conozcas
-          los servicios que estoy brindando y si alguno de ellos es el adecuado
-          para lo que estés necesitando no dudes consultarme.
+          Con mi experiencia en consultorios y
+          clínicas de rehabilitación como kinesiólogo durante años he percibido
+          que; muchos de los tratamientos brindados en estas instituciones no
+          llegan a resultados óptimos o se dilatan en el tiempo, demorando así
+          la recuperación de la persona. Una de las principales causas de estos
+          fracasos terapéuticos es la falta de tiempo que dispone el profesional
+          con el paciente por atender a varias persona a la vez, muchas veces
+          obligado a aplicar protocolos terapéuticos generalizados que pasan por
+          alto la individualidad de cada paciente, disminuyendo así la eficacia
+          y eficiencia de los tratamientos. Es por eso que he decidido brindar
+          una atención ESPECIALIZADA y PERSONALIZADA, que se adapte a las
+          necesidades de cada persona. Estoy convencido que de esta forma de
+          trabajo aumentan las probabilidades de éxito del tratamiento propuesto
+          para solucionar el problema que se busca resolver y muchas veces en un
+          periodo de tiempo mas corto. Te invito a que conozcas los servicios
+          que estoy brindando y si alguno de ellos es el adecuado para lo que
+          estés necesitando no dudes en consultarme.
         </p>
       </div>
       <div>

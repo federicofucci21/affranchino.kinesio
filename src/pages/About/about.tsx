@@ -1,8 +1,17 @@
 import style from "./about.module.css";
 import { studies, courses, work_experience } from "../../assets/constants/cv";
 import "./about.css";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    const button = document.querySelectorAll(".button");
+    const pestañas = document.querySelectorAll(".pestañas");
+    button[0].classList.add("active");
+    pestañas[0].classList.add("active");
+  }),
+    [];
+
   function button_active(id: number) {
     const button = document.querySelectorAll(".button");
     const pestañas = document.querySelectorAll(".pestañas");

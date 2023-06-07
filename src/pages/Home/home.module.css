@@ -1,15 +1,15 @@
 .home {
   display: flex;
   height: 75%;
-  padding: 20px;
+  padding: 5px;
   gap: 10px;
   align-items: center;
   justify-content: space-around;
-  padding-top: 30px;
+  /* padding-top: 30px; */
 }
 
 .img {
-  height: 29rem;
+  height: 30rem;
 }
 
 .text {
@@ -32,7 +32,7 @@
   }
 
   .home {
-    height: 58rem;
+    height: 60rem;
     justify-content: center;
     padding-top: 1px;
   }
