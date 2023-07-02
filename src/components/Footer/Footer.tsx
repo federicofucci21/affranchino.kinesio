@@ -28,7 +28,7 @@ export function Footer() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <BsWhatsapp className={style.icon} />
+                <BsWhatsapp className={style.socialIcon} />
               </a>
               <a
                 href="https://api.whatsapp.com/send?phone=5491123308733&text=Hola,%20quisiera%20consultar%20sobre%20"
