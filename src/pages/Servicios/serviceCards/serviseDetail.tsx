@@ -21,7 +21,7 @@ export default function SeviceDetail() {
   return (
     <nav className={style.nav1}>
       <div className={style.back}>
-        <Link to="/servicios" className={style.backLink}>Volver</Link>
+        <Link to="/terapias" className={style.backLink}>Volver</Link>
       </div>
         <CardServiceDetail title={service.tittle} img={service.img} description={service.description}/>
     </nav>
